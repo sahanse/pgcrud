@@ -1,17 +1,22 @@
 {
-  "name": "postgres-crud",
+  "name": "pgcrudify",
   "version": "1.0.0",
-  "description": "A flexible SQL query builder for creating, reading, updating, and deleting records in PostgreSQL.",
+  "description": "A lightweight and flexible CRUD utility for PostgreSQL, making SQL queries easier.",
   "main": "lib/index.js",
+  "type": "module",
+  "exports": {
+    "import": "./lib/index.js",
+    "require": "./lib/index.js"
+  },
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahanse/postgres-crud"
+    "url": "https://github.com/sahanse/pgcrudify"
   },
   "keywords": [
     "postgres",
@@ -21,12 +26,15 @@
     "query",
     "builder",
     "database",
-    "postgres-crud"
+    "pgcrudify"
   ],
-  "author": "sahan shetty",
+  "author": "Sahan Shetty",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sahanse/postgres-crud/issues"
+    "url": "https://github.com/sahanse/pgcrudify/issues"
   },
-  "homepage": "https://github.com/sahanse/postgres-crud#readme"
+  "homepage": "https://github.com/sahanse/pgcrudify#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

@@ -1,6 +1,6 @@
-# postgres-crud - A Simple PostgreSQL CRUD Utility
+# pgcrudify - A Simple PostgreSQL CRUD Utility
 
-**postgres-crud** is a lightweight and efficient PostgreSQL query builder for performing Create, Read, Update, and Delete (CRUD) operations. It provides a simple API to interact with your PostgreSQL database without writing raw SQL queries.
+**pgcrudify** is a lightweight and efficient PostgreSQL query builder for performing Create, Read, Update, and Delete (CRUD) operations. It provides a simple API to interact with your PostgreSQL database without writing raw SQL queries.
 
 ## Features
 - 🛠️ **Simplified CRUD operations** for PostgreSQL
@@ -12,12 +12,12 @@
 
 ## Installation
 ```sh
-npm install postgres-crud
+npm install pgcrudify
 ```
 
 ## Importing the Module
 ```javascript
-import { createQuery, readQuery, updateQuery, deleteQuery } from "postgres-crud";
+import { createQuery, readQuery, updateQuery, deleteQuery } from "pgcrudify";
 ```
 
 ## Usage
@@ -151,13 +151,13 @@ try {
 | `["id", "name"]` | Only specified fields returned |
 
 ## Conclusion
-`postgres-crud` makes it easy to perform CRUD operations in PostgreSQL with a clean and structured API. 🚀 Happy coding!
+`pgcrudify` makes it easy to perform CRUD operations in PostgreSQL with a clean and structured API. 🚀 Happy coding!
 
 ---
 
 ### Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on the https://github.com/sahanse/postgres-crud
+Contributions are welcome! Please open an issue or submit a pull request on the https://github.com/sahanse/pgcrudify
 
 ---
 ### License
