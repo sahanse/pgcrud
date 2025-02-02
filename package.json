@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahanse/pgcrud.git"
+    "url": "https://github.com/sahanse/postgres-crud"
   },
   "keywords": [
     "postgres",
@@ -26,7 +26,7 @@
   "author": "sahan shetty",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sahanse/pgcrud/issues"
+    "url": "https://github.com/sahanse/postgres-crud/issues"
   },
-  "homepage": "https://github.com/sahanse/pgcrud#readme"
+  "homepage": "https://github.com/sahanse/postgres-crud#readme"
 }

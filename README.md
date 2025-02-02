@@ -1,6 +1,6 @@
-# pgcrud - A Simple PostgreSQL CRUD Utility
+# postgres-crud - A Simple PostgreSQL CRUD Utility
 
-**pgcrud** is a lightweight and efficient PostgreSQL query builder for performing Create, Read, Update, and Delete (CRUD) operations. It provides a simple API to interact with your PostgreSQL database without writing raw SQL queries.
+**postgres-crud** is a lightweight and efficient PostgreSQL query builder for performing Create, Read, Update, and Delete (CRUD) operations. It provides a simple API to interact with your PostgreSQL database without writing raw SQL queries.
 
 ## Features
 - 🛠️ **Simplified CRUD operations** for PostgreSQL
@@ -12,12 +12,12 @@
 
 ## Installation
 ```sh
-npm install pgcrud
+npm install postgres-crud
 ```
 
 ## Importing the Module
 ```javascript
-import { createQuery, readQuery, updateQuery, deleteQuery } from "pgcrud";
+import { createQuery, readQuery, updateQuery, deleteQuery } from "postgres-crud";
 ```
 
 ## Usage
@@ -151,13 +151,13 @@ try {
 | `["id", "name"]` | Only specified fields returned |
 
 ## Conclusion
-`pgcrud` makes it easy to perform CRUD operations in PostgreSQL with a clean and structured API. 🚀 Happy coding!
+`postgres-crud` makes it easy to perform CRUD operations in PostgreSQL with a clean and structured API. 🚀 Happy coding!
 
 ---
 
 ### Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on the https://github.com/sahanse/pgcrud.
+Contributions are welcome! Please open an issue or submit a pull request on the https://github.com/sahanse/postgres-crud
 
 ---
 ### License
