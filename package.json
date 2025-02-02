@@ -1,5 +1,5 @@
 {
-  "name": "pgcrud",
+  "name": "postgres-crud",
   "version": "1.0.0",
   "description": "A flexible SQL query builder for creating, reading, updating, and deleting records in PostgreSQL.",
   "main": "lib/index.js",
@@ -21,8 +21,7 @@
     "query",
     "builder",
     "database",
-    "pgcrud",
-    "pgCrud"
+    "postgres-crud"
   ],
   "author": "sahan shetty",
   "license": "MIT",
